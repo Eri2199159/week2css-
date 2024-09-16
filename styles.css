@@ -1,0 +1,130 @@
+
+/**style body**/
+body{
+ background-color: #b21d5e;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* --- elements --- */ 
+
+
+h1 {
+color: beige; 
+font-style: italic;
+ background-color: rgb(218, 109, 185); 
+ width: max-content;
+border-style: 55%;
+}
+
+
+
+/* Benefits list styling */
+#benefits-list {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #f3daf1;}
+
+
+
+    
+/*---navbar--*/ 
+
+
+.navbar { background-color: rgb(195, 9, 170);
+padding: 1%;
+border-radius: 3%;
+width: 100%;
+}
+
+.navbar ui {
+    display: flex;
+    text-align: center;
+
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+.navbar a {
+    color: rgb(47, 5, 64);
+    margin-right: 1cm;
+    font-size: medium;
+    box-shadow: 3px 2px orchid;
+}
+.navbar a:hover {
+    color: blueviolet;
+
+}
+/*
+/*---Table---*/
+
+table { background-color: rgb(8, 163, 8);
+    border: 8px solid black;
+    width: 80%;
+    margin: 25px;
+    bo
+}
+ th {
+    background-color: greenyellow;
+    border: 1px gainsboro;
+ }
+
+ td { border: 2px dotted rgb(40, 75, 5); 
+    box-shadow: 1cm; 
+    text-align: center;
+    
+}
+/*--Style my form --*/
+form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: rgb(64, 145, 198);
+    text-align: center;
+}
+
+form label {
+    
+    color: white;
+    font-weight: 800;
+}
+button {
+    padding: 10px 20px;
+    background-color: #6f12cb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #320880;
+    transition: 0.3s;
+}
+
+
+/* Styling images */
+ .meal-img {
+    
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+} 
+
+/* Marquee styling */
+.marquee-text {
+    font-size: 1.2em;
+    color: white;
+    background-color: #df1c91;
+    padding: 10px;}
+
+    /* Styling the secondary title */
+h2 {
+    color: #c6f1fbdd;
+    text-align: center; }
+
+    p {
+        font-stretch: normal;
+        font-family: cursive;
+        font-weight: 800;
+        padding: 4px;
+    }
